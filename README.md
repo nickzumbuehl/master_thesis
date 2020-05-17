@@ -25,6 +25,7 @@ This document outlines the following points:
 To clone this repository to your local machine, please follow the subsequent steps:
 1. cd to the directory where you want the folder to be located
 2. in your terminal run: ```git clone https://github.com/nickzumbuehl/master_thesis.git```
+3. a folder called ```master_thesis``` should be placed in the current working directory
 
 ### Environment
 The ```requirements.txt``` contains information on all the relevant packages and versions used in the code base. In order to set up the environment, the please follow the subsequent process:
