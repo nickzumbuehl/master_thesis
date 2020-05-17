@@ -6,6 +6,7 @@ Generally speaking, this repository contains code for all the data loading, prep
 
 This document outlines the following points:
 1. Setting up the Code Base
+   - Clone Repository
    - Environment
    - Configuration
 2. Pipeline Overview
@@ -20,14 +21,18 @@ This document outlines the following points:
    
 
 ## 1. Setting up the Code Base
+### Clone Repository
+To clone this repository to your local machine, please follow the subsequent steps:
+1. cd to the directory where you want the folder to be located
+2. in your terminal run: ```git clone https://github.com/nickzumbuehl/master_thesis.git```
 
-#### Environment
+### Environment
 The ```requirements.txt``` contains information on all the relevant packages and versions used in the code base. In order to set up the environment, the please follow the subsequent process:
 1. cd to the directory where your ```requirements.txt```is located
 2. activate your virtual environment
 3. run: ``` pip install -r requirements.txt``` in your shell. Alternatively, when working with conda, run: ```conda install --file requirements.txt```.
 
-#### Configuration
+### Configuration
 The ```config.py``` file sets up the folder structure. When cloning the repository from GitHub, all the relevant folders are already in place. Nevertheless, the ```config.py``` defines the path architecture and makes sure it runs on each individual local machine.
 
 ## 2. Pipeline Overview
